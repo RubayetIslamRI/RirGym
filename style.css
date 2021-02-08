@@ -1,0 +1,88 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url(bg.jpg);
+  background-size: cover;
+  color: aliceblue;
+  font-family: "Orbitron", sans-serif;
+}
+.left {
+  display: inline-block;
+  position: absolute;
+  left: 2%;
+  top: 17px;
+}
+.left a {
+  font-size: 50px;
+  left: 25px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.left img {
+  width: 320px;
+}
+.mid {
+  width: 50%;
+  display: block;
+  margin: 45px auto;
+  text-align: center;
+}
+.right {
+  position: absolute;
+  right: 5%;
+  top: 48px;
+
+  display: inline-block;
+}
+.btn {
+  height: 50px;
+  width: 100px;
+  margin: 2px 5px;
+  background: none;
+  color: aliceblue;
+  font-family: "Orbitron", sans-serif;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid aliceblue;
+}
+.btn:hover {
+  color: gray;
+}
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 25px;
+}
+.navbar li a {
+  color: aliceblue;
+  text-decoration: none;
+  padding: 34px 20px;
+}
+.navbar li a:hover {
+  color: gray;
+}
+
+.container {
+  text-align: center;
+  display: block;
+}
+.form input {
+  text-align: center;
+  width: 508px;
+  padding: 8px;
+  border: 2px;
+  margin: 11px auto;
+  font-size: 25px;
+  border-radius: 5px;
+  background: none;
+  border: 3px solid aliceblue;
+}
+.form button {
+  color: aliceblue;
+  width: 300px;
+  border: 3px solid aliceblue;
+  text-size-adjust: 50px;
+}
